@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <ContactList
+      <ContactList 
         contacts={contacts}
         updateContact={openEditModal}
         updateCallback={onUpdate}
