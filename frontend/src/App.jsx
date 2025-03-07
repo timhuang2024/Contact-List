@@ -39,7 +39,7 @@ function App() {
   };
 
   return (
-    <>
+    <> 
       <ContactList
         contacts={contacts}
         updateContact={openEditModal}
